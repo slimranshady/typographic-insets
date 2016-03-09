@@ -101,17 +101,18 @@ main::first-letter {
   color: #fff;
 
   float: left;
-  padding: .25em;
+  padding: .15em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   margin-right: .125em;
+  margin-left: -.5em;
 }
 
 figure {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   float: right;
-  width: 50%;
+  width: 40%;
   margin-right: -5em;
 }
 
@@ -119,12 +120,17 @@ img {
   margin: .5em;
 }
 
+figcaption {
+  padding-bottom: .5em;
+}
+
 blockquote {
-  font-size: 1em;
+  font-size: 1.5em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   float: left;
-  width: 30%;
+  width: 40%;
   margin: .5em;
   margin-left: -5em;
+  color: #333;
 }
