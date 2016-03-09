@@ -87,6 +87,7 @@ footer {
 */
 
 /* Write your CSS here */
+
 body {
   overflow: hidden;
 }
@@ -98,7 +99,7 @@ main::first-letter {
   color: #fff;
 
   float: left;
-  padding:.25em;
+  padding: .25em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   margin-right: .125em;
