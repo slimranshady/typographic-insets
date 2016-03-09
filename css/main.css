@@ -87,3 +87,37 @@ footer {
 */
 
 /* Write your CSS here */
+body {
+  overflow: hidden;
+}
+
+main::first-letter {
+  background-color: #666;
+  font-size: 5em;
+  font-style: normal;
+  color: #fff;
+
+  float: left;
+  padding:.25em;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin-right: .125em;
+  overflow: hidden;
+}
+
+figure {
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: right;
+}
+
+img {
+  margin: .5em;
+}
+
+blockquote {
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: left;
+  margin: .5em
+}
