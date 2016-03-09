@@ -88,8 +88,10 @@ footer {
 
 /* Write your CSS here */
 
-body {
-  overflow: hidden;
+main::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 main::first-letter {
@@ -103,13 +105,14 @@ main::first-letter {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   margin-right: .125em;
-  overflow: hidden;
 }
 
 figure {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   float: right;
+  width: 50%;
+  margin-right: -5em;
 }
 
 img {
@@ -117,8 +120,11 @@ img {
 }
 
 blockquote {
+  font-size: 1em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   float: left;
-  margin: .5em
+  width: 30%;
+  margin: .5em;
+  margin-left: -5em;
 }
